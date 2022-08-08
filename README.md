@@ -21,4 +21,4 @@ I was able to withdraw 10 Ether to accountTwo. I can confirm using lastToWithdra
 
 ## Improvements 
 
-I would add a modifier `onlyOwner` to the contract that would require `msg.sender` owner when the deployed contract to be ther owner. Then I would add the modifier to `setAccounts` funtion.
+I would add a modifier `onlyOwner` to the contract that would require `msg.sender` to equal owner of the deployed contract. Then add the modifier to `setAccounts` funtion son only the owner can set the accounts.
