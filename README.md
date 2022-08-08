@@ -5,12 +5,15 @@ The goal of this project was to create a contract that can send **ETH** to eithe
 ## Testing Contract Functionality
 
 ### Using deposit function to deposit funds
+I was able to sent 1 Ether, 10 Ether and 5 Ether to the contract address using the deposit function. The `contractBalance` would show the balance of the contract in wei.
 ![](./excecution_results/send_5_ether.png)
 
 ### Withdrawing funds to accountOne
+Using the withdraw function I was able to withdraw 5 Ether to accountOne. You can confirm using lastToWithdraw, lastWithdrawAmount and contract balance to check if the withdraw was successfull.
 ![](./excecution_results/accountOne_5_ether.png)
 
 ### Withdrawing funds to accountTwo
+I was able to withdraw 10 Ether to accountTwo. I can confirm using lastToWithdraw, lastWithdrawAmount and contract balance to check if the withdraw was successfull.
 ![](./excecution_results/accountTwo_10_ether.png)
 
 ## Improvements 
