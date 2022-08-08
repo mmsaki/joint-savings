@@ -1,6 +1,6 @@
 # Joint Savings Contract
 
-The goal of this project was to create a contract that can send **ETH** to either one of two savings accounts. This contract will have a withdraw function that requires that the **recipient** of the funds in the smart contract are your two savings accounts. Otherwise, funds will not be withdrawn. There is a **deposit** function and also a **fallback** function that can be used to deposit funds into the contract. There is a function to set accounts `setAccounts` that will take in two payable address `account1` and `account2` that receive savings from the smart contract. 
+The goal of this project was to create a contract that can send **ETH** to either one of two savings accounts. This contract will have a withdraw function that requires that the **recipient** of the funds in the smart contract are your two savings accounts. Otherwise, funds will not be withdrawn. There is a **deposit** function and a **fallback** function that can be used to send funds into the contract. There is a function `setAccounts` that will take in two payable addresses `account1` and `account2` that will receive savings from our smart contract. 
 
 ## Testing Contract Functionality
 
