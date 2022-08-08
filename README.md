@@ -10,12 +10,12 @@ I was able to send 1 Ether, 10 Ether and 5 Ether to the contract address using t
 ![](./excecution_results/send_5_ether.png)
 
 ### Withdrawing funds to accountOne
-Using the withdraw function I was able to withdraw 5 Ether to accountOne. You can confirm using lastToWithdraw, lastWithdrawAmount and contract balance to check if the withdraw was successfull.
+Using the withdraw function I was able to withdraw 5 Ether to accountOne. You can confirm using `lastToWithdraw`, `lastWithdrawAmount` and `contractBalance` to check if the withdraw was successfull.
 
 ![](./excecution_results/accountOne_5_ether.png)
 
 ### Withdrawing funds to accountTwo
-I was able to withdraw 10 Ether to accountTwo. I can confirm using lastToWithdraw, lastWithdrawAmount and contract balance to check if the withdraw was successfull.
+I was able to withdraw 10 Ether to accountTwo. I can confirm using `lastToWithdraw`, `lastWithdrawAmount` and `contractBalance` to check if the withdraw was successfull.
 
 ![](./excecution_results/accountTwo_10_ether.png)
 
