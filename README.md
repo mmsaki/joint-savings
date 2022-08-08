@@ -4,15 +4,15 @@ The goal of this project was to create a contract that can send **ETH** to eithe
 
 ## Testing Contract Functionality
 
-- [x] Using deposit function to deposit funds
-![](./excecution_results/deposit_1_ether.png)
+### Using deposit function to deposit funds
 ![](./excecution_results/send_5_ether.png)
-![](./excecution_results/deposit_10_ether.png)
 
-- [x] Withdrawing funds to accountOne and accountTwo
+### Withdrawing funds to accountOne
 ![](./excecution_results/accountOne_5_ether.png)
+
+### Withdrawing funds to accountTwo
 ![](./excecution_results/accountTwo_10_ether.png)
 
-### Improvements 
+## Improvements 
 
 I would add a modifier `onlyOwner` to the contract that would require `msg.sender` owner when the deployed contract to be ther owner. Then I would add the modifier to `setAccounts` funtion.
