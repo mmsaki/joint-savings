@@ -4,18 +4,11 @@ pragma solidity ^0.5.0;
 address lastToWithdraw public lastWithdrawAmount and public contractBalance variables 
 */
 contract JointSavings {
-    address payable owner;
-
     address payable accountOne;
     address payable accountTwo;
     address public lastToWithdraw;
     uint public lastWithdrawAmount;
     uint public contractBalance;
-
-    modifier onlyOwner {
-        require(msg.sender == owner, "You don't have permission to set accounts");
-        _;
-    }
 
     // Creating withdraw function that takes in uint amount and payable recipient address
     function withdraw(uint amount, address payable recipient) public {
@@ -41,7 +34,7 @@ contract JointSavings {
     }
 
     // Create public setAccounts function that take in account1 and account2
-    function setAccounts(address payable account1, address payable account2) public onlyOwner {
+    function setAccounts(address payable account1, address payable account2) public {
         accountOne = account1;
         accountTwo = account2;
     }
